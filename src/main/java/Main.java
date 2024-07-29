@@ -14,7 +14,7 @@ public class Main {
         while (!exit) {
             Scanner input = new Scanner(System.in);
             selection = input.nextInt();
-            ReportGenerator report;
+            IReportGenerator report;
             switch (selection) {
                 case 1:
                     report =  new PDFReportAdapter();

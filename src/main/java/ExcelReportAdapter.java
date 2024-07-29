@@ -7,7 +7,7 @@ import org.apache.poi.ss.usermodel.Workbook;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
-public class ExcelReportAdapter implements ReportGenerator {
+public class ExcelReportAdapter implements IReportGenerator {
     public void generateReport(String text) {
         System.out.println("Generating Excel report ...");
         Workbook book = new HSSFWorkbook();

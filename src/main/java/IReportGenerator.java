@@ -1,3 +1,3 @@
-public interface ReportGenerator {
+public interface IReportGenerator {
     void generateReport(String text);
 }

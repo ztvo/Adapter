@@ -5,7 +5,7 @@ import com.itextpdf.text.pdf.PdfWriter;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 
-public class PDFReportAdapter implements ReportGenerator {
+public class PDFReportAdapter implements IReportGenerator {
     public void generateReport(String text) {
         System.out.println("Generating PDF report ...");
         Document document = new Document();
